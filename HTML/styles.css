@@ -1,0 +1,108 @@
+/* Header */
+header {
+    background-color: #2080ed;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+
+header h1 {
+    margin: 1;
+}
+
+header img {
+    border-radius: 60%;
+    border: 2px solid white;
+}
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color:#333;
+    line-height: 1.6;
+}
+
+
+
+/* About Section */
+#about {
+    padding: 20px;
+    background-color: #fff;
+}
+
+#about h2, #skills h2, #contact h2 {
+    color: #387cc0;
+}
+
+/* Interests List */
+#about ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Skills Table */
+#skills {
+    padding: 20px;
+    background-color: #eaf2fb;
+}
+
+#skills table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#skills th, #skills td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#skills th {
+    background-color: #4a90e2;
+    color: white;
+}
+
+/* Contact Form */
+#contact {
+    padding: 20px;
+    background-color: #fff;
+}
+
+#contact label {
+    font-weight: bold;
+}
+
+#contact input, 
+#contact textarea {
+    width: 10%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #594f4f;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #357ab7;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
