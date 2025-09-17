@@ -1,4 +1,4 @@
-/* Header */
+/* Header element selector*/
 header {
     background-color: #2080ed;
     color: white;
@@ -16,7 +16,7 @@ header img {
     border: 2px solid white;
 }
 
-/* General Page Styling */
+/* General Page Styling element selector*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -28,14 +28,15 @@ body {
 
 
 
-/* About Section */
+/* About Section ID selector are one that starts with #
+    This only affects the section with id="about"*/
 #about {
     padding: 20px;
     background-color: #fff;
 }
 
 #about h2, #skills h2, #contact h2 {
-    color: #387cc0;
+    color: #387cc0; 
 }
 
 /* Interests List */
@@ -50,18 +51,19 @@ body {
     background-color: #eaf2fb;
 }
 
-#skills table {
+/* Class selector for styled tables */
+.table-styled {
     width: 100%;
     border-collapse: collapse;
 }
 
-#skills th, #skills td {
+.table-styled th, .table-styled td {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
 }
 
-#skills th {
+.table-styled th {
     background-color: #4a90e2;
     color: white;
 }
