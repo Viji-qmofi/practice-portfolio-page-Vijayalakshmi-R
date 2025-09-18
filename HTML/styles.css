@@ -26,6 +26,29 @@ body {
     line-height: 1.6;
 }
 
+/* Container for sections */
+.container {
+    padding: 20px;
+    overflow: auto; /* clears floated elements inside */
+    background-color: #fff;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* ensures the image is cropped nicely */
+}
+
+
+/* Float Utility Classes */
+.float-right {
+    float: right;
+    margin-left: 20px; /* space between image and text */
+    margin-bottom: 10px; /* extra spacing below image */
+}
+
 
 
 /* About Section ID selector are one that starts with #
@@ -87,16 +110,18 @@ body {
     border-radius: 5px;
 }
 
-#contact button {
+/* ✅ Class selector for buttons */
+.btn {
     background-color: #4a90e2;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-#contact button:hover {
+.btn:hover {
     background-color: #357ab7;
 }
 
