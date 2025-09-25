@@ -5,13 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portfolio</title>
 
+        <!-- External CSS -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
 
         <!-- Header : Usage of h1-->
         <header>
             <h1>Vijayalakshmi Ramu</h1>
-            <img src="./Images/Viji_Profile.jpg" alt="Vijayalakshmi Ramu" width="150" height="150" style="float: right; margin-left: 15px;">
+            <img src="./Images/Viji_Profile.jpg" alt="Vijayalakshmi Ramu" class="profile-img float-right">
 
             <p>Aspiring Web Developer</p>
 
@@ -20,14 +22,14 @@
         <!-- About Me Section uses p-->
         <section id="about">
 
-            <h2>About Me</h2>
+            <h2 class="section-title">About Me</h2>
             <p>
                 I’m V.G., a passionate learner in web development. I enjoy creating
                 clean, user-friendly websites and exploring new technologies.<br/> My goal is
                 to build impactful digital experiences.
             </p>
 
-            <h3>My Interests</h3>
+            <h3 class="section-title">My Interests</h3>
             <ul class="interest-list">
                 <li>Web Design</li>
                 <li>Baking</li>
@@ -39,8 +41,8 @@
 
         <!-- Skills Table -->
         <section id="skills">
-          <h2 >Skills</h2>
-          <table border="1" >
+          <h2 class="section-title">Skills</h2>
+          <table class="table-styled">
                 <tr>
                     <th>Skill</th>
                     <th>Proficiency</th>
@@ -61,23 +63,7 @@
             </table>
         </section>
 
-        <!-- Contact Form -->
-        <section id="contact">
-            <h2  class="section-title">Contact Me</h2>
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
-
-                <label for="email">Email:</label><br/>
-                <input type="email" id="email" name="email" required><br><br>
-
-                <label for="message">Message:</label><br/>
-                <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
-
-                <button type="submit"  class="btn">Send Message</button>
-            </form>
-        </section>
-
+        
         <!-- Footer -->
         <footer>
             <p>&copy; 2025 Vijayalakshmi Ramu. All rights reserved.</p>
